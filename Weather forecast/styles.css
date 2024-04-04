@@ -1,0 +1,31 @@
+
+.image {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img3, .img1, .img2 {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img3, .img1, .img2 {
+        margin-bottom: 20px;
+    }
+}
+
+
+.zoom-in {
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoom-in:hover {
+    transform: scale(1.2); 
+}

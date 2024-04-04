@@ -1,0 +1,62 @@
+body {
+ 
+    margin: 0;
+    padding: 0;
+    background-image: url("clinton-naik-NcTQ602gKLI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.main{
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+   
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin-top: 20px;
+}
+.image{
+    display: flex;
+}
+.img2{
+    margin-left: 20px;
+}
+.img1{
+    margin-left: 40px;
+}

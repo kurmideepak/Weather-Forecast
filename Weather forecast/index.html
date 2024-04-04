@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       
+        .zoom-in {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .zoom-in:hover {
+            transform: scale(1.2); 
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Weather Forecast</h1>
+            <div class="image">
+                <div class="img3">
+                    <img src="image-removebg-preview.png" class="zoom-in" height="150px" width="150px">
+                </div>
+                <div class="img1">
+                    <img src="[removal.ai]_14754244-5c57-4803-a15e-4d1ac045373f-weather.png" class="zoom-in" height="150px" width="150px">
+                </div>
+                <div class="img2">
+                    <img src="weather-icon-png-27.png" class="zoom-in" height="150px" width="150px">
+                </div>
+            </div>
+            <input type="text" id="cityInput" name="Forecast"  placeholder="Enter city name">
+            <button onclick="getWeather()">Get Weather</button>
+            <div id="weatherInfo"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+
+        document.querySelectorAll('.zoom-in').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('zoom-in-active');
+            });
+        });
+    </script>
+</body>
+</html>
