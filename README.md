@@ -23,3 +23,10 @@ This is a simple weather forecast website that allows users to check the weather
 4. Click the "Get Weather" button to retrieve the weather information for the entered city.
 5. View the displayed weather information including description, temperature, humidity, and wind speed.
 
+
+   ##Some Screenshot:
+
+   
+![Screenshot (166)](https://github.com/kurmideepak/Weather-Forecast/assets/140266333/a3aceabf-9cef-4cb7-bf43-f4a0efd4e9f1)
+
+![Screenshot (167)](https://github.com/kurmideepak/Weather-Forecast/assets/140266333/4129e64c-32db-4978-932c-47173a303e12)
